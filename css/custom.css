@@ -1,38 +1,58 @@
+h1 {
+  font-weight: bolder;
+  color: #7a003c !important;
+  margin-bottom: 5rem;
+}
+p,
+h3 {
+  text-align: left;
+}
+h3 {
+  font-weight: bolder;
+  margin-top: 5rem;
+  color: #7a003c;
+}
+
 .navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 30px;
-    border: transparent;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 30px;
+  border: transparent;
 }
 
 /*media all*/
 .mac-footer {
-    background: #7a003c;
-    color: #fff;
-	height: 200px;
+  background: #7a003c;
+  color: #fff;
+  height: 200px;
 }
-.mac-footer a{
-    color: #fff;
+.mac-footer a {
+  color: #fff;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: transparent;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
 }
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    margin-top: 15px;
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-top: 15px;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #7a003c;
-    background-color: #fff;
-
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #7a003c;
+  background-color: #fff;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #3F3F3F;
-    border-color: #2D2D2D;
+  color: #fff;
+  background-color: #3f3f3f;
+  border-color: #2d2d2d;
 }
 .btn-primary:hover {
-    color: #fff;
-    background-color: #606060;
-    border-color: #3F3F3F;
+  color: #fff;
+  background-color: #606060;
+  border-color: #3f3f3f;
 }
