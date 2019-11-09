@@ -6,11 +6,20 @@ h1 {
 p,
 h3 {
   text-align: left;
+  margin-bottom: 3rem;
 }
 h3 {
   font-weight: bolder;
   margin-top: 5rem;
   color: #7a003c;
+}
+hr {
+  border-top: 2px solid #7a003c;
+  margin-top: 3rem;
+}
+
+li {
+  margin-bottom: 3rem;
 }
 
 .navbar {
